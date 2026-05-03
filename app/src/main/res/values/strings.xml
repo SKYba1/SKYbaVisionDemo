@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="copyright_text">© 2026 SKYba. All rights reserved.</string>
+
+    <!-- Recommended Pop-Up (English) -->
+    <string name="battery_pop_up_title">Recommended</string>
+    <string name="battery_pop_up_description">Before you start: to ensure the app works reliably in the background,
+        disable power optimization for it in your device settings. Otherwise, the system may stop it at any time.
+        \n\nAs an alternative: you can change nothing—just keep the app open in the list of running applications.</string>
+    <string name="battery_pop_up_settings">Settings</string>
+    <string name="battery_pop_up_later">Maybe later</string>
+
+    <!-- Main Screen (English) -->
+    <string name="main_screen_title">Timer</string>
+    <string name="stats_screen_title">Statistic</string>
+    <string name="help_screen_title">Help</string>
+    <string name="settings_screen_title">Options</string>
+
+    <string name="status_bar_default">status_bar_default</string>
+    <string name="status_bar_usage_time">Screen time</string>
+    <string name="status_bar_break_time">Break time</string>
+    <string name="timer_paused">Timer paused</string>
+
+    <string name="start_button">Start</string>
+    <string name="help_button">Help</string>
+    <string name="restart_button">Restart</string>
+    <string name="skip_button">Skip</string>
+
+    <!--Help Screen (English) -->
+    <string name="faq_question_rule_1">1. What is the 20-20-20 rule?</string>
+    <string name="faq_answer_rule_1">Take a break every 20 minutes and look at something in the distance for at least 20 seconds.\n</string>
+
+    <string name="faq_question_rule_2">2. How do I use this app?</string>
+    <string name="faq_answer_rule_2">Start the timer with your preferred interval.\n\nWhen the signal sounds, look away from the screen and do simple eye exercises:\n• Slowly move your eyes left and right, then up and down.\n• Make circular movements or “figure eights” with your eyes to stretch the eye muscles.\n• Blink frequently to moisturize your eyes and reduce strain.\n\nThe timer will automatically start the next cycle.\n</string>
+
+    <string name="faq_question_rule_3">3. Can I change the timer duration?</string>
+    <string name="faq_answer_rule_3">Yes, in the settings you can change the screen time duration and the break duration.\nThe timer runs continuously until you stop it manually.\n</string>
+
+    <string name="faq_question_rule_4">4. Can I turn off notification sounds?</string>
+    <string name="faq_answer_rule_4">Yes, you can disable the sound or choose a different notification sound in the settings.\n</string>
+
+    <string name="faq_question_rule_5">5. Why are notifications not coming?</string>
+    <string name="faq_answer_rule_5">• Check notification permissions and make sure the app is allowed to send notifications.\n• Make sure the app is not closed in the background.\n• Try restarting the app.\n</string>
+
+    <string name="faq_question_rule_6">6. Does the timer work when the phone is locked?</string>
+    <string name="faq_answer_rule_6">Yes, the timer continues to run in the background, and notifications will appear on the lock screen.\nYou can also control the timer directly from the notification.\n</string>
+
+    <string name="faq_question_rule_7">7. Why does the timer stop while running in the background?</string>
+    <string name="faq_answer_rule_7">• Check if power optimization is enabled for this app in your device settings; if it is, disable it.\n• The timer may also stop due to low battery or energy-saving mode.\n</string>
+
+
+    <!-- Settings Screen (English) -->
+    <string name="timer_settings_title">Timer Settings</string>
+    <string name="minutes_abbreviation">min</string>
+
+    <!-- Settings Screen Sound (English) -->
+    <string name="sound">Sound</string>
+    <string name="media_volume">Media volume</string>
+    <string name="sound_1">Signal</string>
+    <string name="sound_2">Ticking</string>
+    <string name="sound_3">Bell</string>
+    <string name="sound_4">Tick Tock</string>
+    <string name="sound_none">No Sound</string>
+
+    <!-- Settings Screen Text (English) -->
+    <string name="text">Text</string>
+    <string name="main_screen">Main screen</string>
+    <string name="notification">Notification</string>
+
+    <!-- Settings Screen Theme (English) -->
+    <string name="theme">Theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="system">System</string>
+
+    <!-- Notifications (English) -->
+    <string name="notification_started">Interval started</string>
+    <string name="notification_remaining">Remaining:</string>
+    <string name="continue_button">Continue</string>
+    <string name="pause_button">Pause</string>
+    <string name="stop_button">Stop</string>
+
+    <!-- Сontent Description (English) -->
+    <string name="cd_timer_image">Timer image on the main screen</string>
+    <string name="cd_phase_icon">Time phase icon (Screen, cup, two vertical pause bars)</string>
+    <string name="cd_phase_screen">Screen image</string>
+    <string name="cd_phase_cup">Cup image</string>
+    <string name="cd_control_panel">Control panel with buttons</string>
+    <string name="cd_start_button">Start button</string>
+    <string name="cd_help_button">Help button</string>
+    <string name="cd_settings_button">Settings button</string>
+    <string name="cd_stop_button">Stop button</string>
+    <string name="cd_close_settings_button">Close settings button</string>
+    <string name="cd_decrease_screen_time">Decrease screen time button</string>
+    <string name="cd_increase_screen_time">Increase screen time button</string>
+    <string name="cd_decrease_break_time">Decrease break time button</string>
+    <string name="cd_increase_break_time">Increase break time button</string>
+    <string name="cd_volume_settings_icon">Volume settings icon</string>
+    <string name="cd_theme_settings_icon">Theme settings icon</string>
+    <string name="cd_view_button_icon">View button</string>
+    <string name="cd_back_button">Back button</string>
+    <string name="cd_selection_button">Selection button</string>
+    <string name="app_name">SKYba Vision</string>
+    <string name="time">Time</string>
+    <string name="buttons">Buttons</string>
+    <string name="menu_title">Menu</string>
+    <string name="rate_app_title">Rate App</string>
+    <string name="more_apps_title">More Apps</string>
+    <string name="more_apps_description">Explore other projects.</string>
+    <string name="rate_app_description">Share your feedback.</string>
+    <string name="duration_title">Duration</string>
+    <string name="duration_description">Screen time • Break time</string>
+    <string name="sound_title">Sound</string>
+    <string name="sound_description">Media volume • Notification sound</string>
+    <string name="controls_title">Controls</string>
+    <string name="controls_description">Show buttons • Layout</string>
+    <string name="appearance_title">Appearance</string>
+    <string name="appearance_description">System • Light • Dark theme</string>
+    <string name="custom_titles">Custom titles</string>
+    <string name="feedback_title">Feedback</string>
+    <string name="custom_titles_description">Screen Time • Break Time • Timer Paused</string>
+    <string name="stats_today_title">Today</string>
+    <string name="stats_details_title">Details</string>
+    <string name="stats_completed_cycles">Completed cycles</string>
+    <string name="stats_interrupted_cycles">Interrupted cycles</string>
+    <string name="hours_abbreviation">h</string>
+    <string name="seconds_abbreviation">s</string>
+    <string name="stats_empty_title">No data yet</string>
+    <string name="controls_triangle_title">Triangle</string>
+    <string name="controls_column_title">Column</string>
+    <string name="control_layout_title">Control layout</string>
+    <string name="control_show_buttons_title">Show buttons</string>
+    <string name="sound_title_notification">Notification sound</string>
+    <string name="custom_titles_notification">Notification title</string>
+</resources>
