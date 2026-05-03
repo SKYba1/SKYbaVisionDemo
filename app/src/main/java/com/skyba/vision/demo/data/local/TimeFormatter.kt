@@ -29,12 +29,12 @@ object TimeFormatter {
 
         return when {
             hours > 0 -> {
-                // Якщо є хвилини — додаємо їх, якщо 0 — не пишемо нічого
+
                 val minutesPart = if (minutes > 0) " ${minutes}${m}" else ""
                 "${hours}${h}$minutesPart"
             }
             minutes > 0 -> {
-                // Малюємо секунди тільки якщо вони не нульові
+
                 val secondsPart = if (seconds > 0) " ${seconds}${s}" else ""
                 "${minutes}${m}$secondsPart"
             }
@@ -52,7 +52,7 @@ object TimeFormatter {
     fun formatSecondsRaw(
         context: Context,
         totalSeconds: Int,
-        isPopup: Boolean = false // Додаємо цей прапорець
+        isPopup: Boolean = false
     ): String {
         val h = context.getString(R.string.hours_abbreviation)
         val m = context.getString(R.string.minutes_abbreviation)
